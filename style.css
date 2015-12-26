@@ -1,0 +1,11 @@
+.center{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.main{
+    padding: 25px;
+    font-size: x-large;
+}
+.red{color:red}
+.green{color: green}

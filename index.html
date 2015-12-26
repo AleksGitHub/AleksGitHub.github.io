@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Считалочки</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Seymour+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+</head>
+<body onload="main()">
+    <header class="center">
+        <p>Тренеруем мозг</p>
+            <div>
+                <p>
+                    Выбери дествие:
+
+                <select name="sign" >
+                    <option value="1">Сложение</option>
+                    <option value="2">Вычитание</option>
+                    <option value="3">Умножение</option>
+                    <option value="4">Деление</option>
+                </select>
+
+                    Выберите розрядность числа:
+
+                <input type="number" value="1" id="digit">
+                </p>
+            </div>
+
+    </header>
+    <div class="center" id="go">
+        <p>Начнем</p>
+        <button onclick="main()">StartTest</button>
+    </div>
+    <div class="center main" id="gameField">
+        <span class="firstNumb"></span>
+        <span class="sign"></span>
+        <span class="secondNumb"></span>
+        <span> = </span>
+        <input type="text" id="answer">
+    </div>
+    <div id="log"></div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="Counting.js"></script>
+</body>
+</html>
