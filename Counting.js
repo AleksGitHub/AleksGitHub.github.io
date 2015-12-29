@@ -67,6 +67,8 @@ function go(){
                 temp = fNumbVal;
                 fNumbVal = sNumbVal;
                 sNumbVal = temp;
+                $fNumb.html(fNumbVal);
+                $sNumb.html(sNumbVal);
                 trueAnswer = Math.floor( fNumbVal / sNumbVal);
             }
             break;
