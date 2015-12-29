@@ -67,15 +67,11 @@ function go(){
                 temp = fNumbVal;
                 fNumbVal = sNumbVal;
                 sNumbVal = temp;
-
                 trueAnswer = Math.floor( fNumbVal / sNumbVal);
-
             }
             break;
         default : break;
     }
-    console.log(trueAnswer);
-    console.log(invert);
     var beginDate = new Date();
     $answer.focus();
     $answer[0].oninput = function(){
