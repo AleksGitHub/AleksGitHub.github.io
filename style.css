@@ -4,6 +4,7 @@
     text-align: center;
 }
 .main{
+    display: none;
     padding: 25px;
     font-size: x-large;
 }

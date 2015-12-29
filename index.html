@@ -7,30 +7,36 @@
     <link href='https://fonts.googleapis.com/css?family=Seymour+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 </head>
-<body onload="main()">
+<body >
     <header class="center">
         <p>Тренеруем мозг</p>
             <div>
                 <p>
                     Выбери дествие:
-
-                <select name="sign" >
-                    <option value="1">Сложение</option>
-                    <option value="2">Вычитание</option>
-                    <option value="3">Умножение</option>
-                    <option value="4">Деление</option>
-                </select>
-
+                    <select name="sign" id="sign">
+                        <option value="1">Сложение</option>
+                        <option value="2">Вычитание</option>
+                        <option value="3">Умножение</option>
+                        <option value="4">Деление</option>
+                    </select>
+                </p>
+                <p>
+                    При вычитании ответом могут быть :
+                    <select name="invert" id="invert">
+                        <option value="0">положительные и отрицательные</option>
+                        <option value="1">только положительные числа</option>
+                    </select>
+                </p>
+                <p>
                     Выберите розрядность числа:
-
-                <input type="number" value="1" id="digit">
+                    <input type="number" value="1" id="digit">
                 </p>
             </div>
 
     </header>
     <div class="center" id="go">
         <p>Начнем</p>
-        <button onclick="main()">StartTest</button>
+        <button onclick="startGame()">StartTest</button>
     </div>
     <div class="center main" id="gameField">
         <span class="firstNumb"></span>
@@ -41,15 +47,9 @@
     </div>
     <div class="result">
         <div class="wrap">
-            <p class="time">
-                Время в секундах<br>
-             </p>
-            <p class="exercise">
-                Пример<br>
-            </p>
-            <p>
-              средние время: <span class="mean"></span>
-            </p>
+            <p class="time"></p>
+            <p class="exercise"></p>
+            <p>средние время: <span class="mean"></span></p>
             <span class="clear"></span>
         </div>
     </div>
