@@ -2,7 +2,7 @@ jQuery(document).ready(function(){
     var i = 1;
     sliderGo();
     function sliderGo(){
-        if(i = 7) i=1;
+        if(i == 7) i=1;
             $li(i).css("left", "-900px");
             $li(i).css("display", "inline-block");
             $li(i).animate({left: "0px"}, 1000);

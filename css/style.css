@@ -1,10 +1,10 @@
 .body{
     margin:0;
     background-color: #111;
-    height: 2400px;
+
 }
 .navmenu{
-    padding:25px 150px;
+    padding:25px 50px;
     font-size: 24px;
     list-style: none;
 }
@@ -26,7 +26,7 @@
     text-decoration: none;
 }
 .home{
-
+background: #eea236;
 }
 .wrapSlider{
     text-align: center;
@@ -44,7 +44,31 @@
     position: relative;
     left: -900px;
 }
-
+.homeContent{
+    text-align: center;
+    font-size: 36px;
+    padding: 25px 0 0 0;
+}
+.home > img{
+    width: 100%;
+    border:1px white solid;
+    border-radius: 35px;
+}
+.goto{
+    display: block;
+    width: 70px;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    font-size: 30px;
+    background:#398439;
+    border-radius:500px 500px 0 0;
+    text-align: center;
+    vertical-align: baseline;
+}
+.work{
+    background: #398439;
+}
 footer{
     height: 147px;
     border-top:3px #333 solid;
