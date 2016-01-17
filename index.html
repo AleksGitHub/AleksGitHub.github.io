@@ -1,60 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Считалочки</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Seymour+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mainScript.js"></script>
+    <script src="js/slider.js"></script>
 
 </head>
-<body >
-    <header class="center">
-        <p>Тренируем мозг</p>
-            <div>
-                <p>
-                    Выбери дествие:
-                    <select name="sign" id="sign">
-                        <option value="1">Сложение</option>
-                        <option value="2">Вычитание</option>
-                        <option value="3">Умножение</option>
-                        <option value="4">Деление</option>
-                    </select>
-                </p>
-                <p>
-                    При вычитании ответом могут быть :
-                    <select name="invert" id="invert">
-                        <option value="0">положительные и отрицательные</option>
-                        <option value="1">только положительные числа</option>
-                    </select>
-                </p>
-                <p>
-                    Выберите розрядность числа:
-                    <input type="number" value="1" id="digit">
-                </p>
+<body class="body">
+    <div class="home container-fluid">
+        <header class="row">
+            <nav>
+                <ul class="navmenu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#work">Работы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="row">
+            <div class="col-md-2"></div>
+            <div id="slider" class="col-md-8 wrapSlider container-fluid">
+                <ul class="slider">
+                    <li> <img src="images/5.png" alt="image"> </li>
+                    <li> <img src="images/2.png" alt="image"> </li>
+                    <li> <img src="images/3.png" alt="image"> </li>
+                    <li> <img src="images/4.png" alt="image"> </li>
+                    <li> <img src="images/6.png" alt="image"> </li>
+                    <li> <img src="images/7.png" alt="image"> </li>
+                </ul>
             </div>
+            <div class="col-md-2"></div>
+        </section>
+    </div>
+    <div class="work">
 
-    </header>
-    <div class="center" id="go">
-        <p>Начнем</p>
-        <button onclick="startGame()">StartTest</button>
     </div>
-    <div class="center main" id="gameField">
-        <span class="firstNumb"></span>
-        <span class="sign"></span>
-        <span class="secondNumb"></span>
-        <span> = </span>
-        <input type="text" id="answer">
+    <div class="contact">
+
     </div>
-    <div class="result">
-        <div class="wrap">
-            <p class="time"></p>
-            <p class="exercise"></p>
-            <p>средние время: <span class="mean"></span></p>
-            <span class="clear"></span>
-        </div>
-    </div>
-    <div id="log"></div>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-<script type="text/javascript" src="Counting.js"></script>
+    <footer>
+        <p>
+            Portfolio-page
+        </p>
+        <p>
+            author: Alexandr
+        </p>
+    </footer>
 </body>
 </html>
