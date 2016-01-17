@@ -5,9 +5,10 @@ jQuery(document).ready(function(){
     sliderGo();
     function sliderGo(){
         var i = 1;
-        var intervalId = setTimeout(function slider () {
+        var intervalId = setInterval(function() {
             $li(i).css("left", "-900px");
             $li(i).css("display", "inline-block");
+
             $li(i).animate({left: "0px"}, 1000);
             $li(i).animate({left: "0px"}, 1000);
             $li(i).animate({left: "900px"},{
@@ -15,7 +16,6 @@ jQuery(document).ready(function(){
                 complete: function(){jQuery(this).css("display", "none")}
             });
             if(++i > 7) i=1;
-            var intervalId = setTimeout(slider (),2900);
         }, 2900);
     }
     function $li(numb) {
