@@ -9,40 +9,38 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/mainScript.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/scroll.js"></script>
 
 </head>
 <body class="body">
-    <div class="home container-fluid">
-        <header class="row">
-            <nav>
-                <ul class="navmenu">
-                    <li><a href="#home">Главная</a></li>
-                    <li><a href="#work">Работы</a></li>
-                    <li><a href="#contact">Контакты</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="row">
-            <div class="col-md-2"></div>
-            <div id="slider" class="col-md-8 wrapSlider container-fluid">
-                <ul class="slider">
-                    <li> <img src="images/5.png" alt="image"> </li>
-                    <li> <img src="images/2.png" alt="image"> </li>
-                    <li> <img src="images/3.png" alt="image"> </li>
-                    <li> <img src="images/4.png" alt="image"> </li>
-                    <li> <img src="images/6.png" alt="image"> </li>
-                    <li> <img src="images/7.png" alt="image"> </li>
+
+    <header class="navigation container-fluid">
+        <nav>
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <div class="navmenu">
+                <ul >
+                    <li><a href="#h">Home</a></li>
+                    <li><a href="#w">Block1</a></li>
+                    <li><a href="#w">Block2</a></li>
+                    <li><a href="#w">Block3</a></li>
+                    <li><a href="#c">Block4</a></li>
+                    <li><a href="#c">Block5</a></li>
+                    <li><a href="#c">Block6</a></li>
                 </ul>
             </div>
-            <div class="col-md-2"></div>
-        </section>
+        </nav>
+    </header>
+    <div class="home container-fluid">
         <section class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8 homeContent">
-               <p> Home </p>
+            <div class="col-md-2 col-lg-2 col-sm-2"></div>
+            <div class="col-md-8 col-lg-8 col-sm-8 homeContent">
+               <p> Все начинается с улетного сайта!!! </p>
                 <div class="home">
-                <img src="images/20.jpg" alt="">
+                    <img src="images/boow.png" alt="">
                 </div>
+                <p>
+                    Из чего делается сайт? 
+                </p>
             </div>
             <div class="col-md-2"></div>
         </section>
@@ -50,7 +48,7 @@
             <a href="#work" class="goto"><span class="glyphicon glyphicon-chevron-down"></span></a>
         </section>
     </div>
-    <div class="work container-fluid">
+    <div class="work container-fluid" id="work">
         <h1> Work</h1>
         <section >
             <section class="row">
@@ -71,8 +69,7 @@
                         насущным потребностям.
                     </p>
                 </div>
-
-            </section>
+             </section>
 
             <section class="row">
                 <div class=" col-md-6"></div>
@@ -118,5 +115,6 @@
             author: Alexandr
         </p>
     </footer>
+    <div class="toTop"><span class="glyphicon glyphicon-chevron-up"></span></div>
 </body>
 </html>
