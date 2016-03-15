@@ -9,10 +9,12 @@ a:active, a:visited , a:focus{
     margin:10px 0;
     color: #080808;
 }
-.mySlider{
-    background-image:url(../image/slider_bg.png);
+section.mySlider{
+    background:url(../image/slider_bg.png) no-repeat center;
+    background-color: #66ccff;
+}
+div.mySlider{
     height: 471px;
-
 }
 .item > img{
     padding-top: 25px;
