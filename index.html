@@ -2,119 +2,199 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Портфолио</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mainScript.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/scroll.js"></script>
-
+    <title>Test task</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body class="body">
+<body>
+    <header>
+        <nav class="navbar navbar-default " role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div>
 
-    <header class="navigation container-fluid">
-        <nav>
-            <div class="logo"><img src="images/logo.png" alt=""></div>
-            <div class="navmenu">
-                <ul >
-                    <li><a href="#h">Home</a></li>
-                    <li><a href="#w">Block1</a></li>
-                    <li><a href="#w">Block2</a></li>
-                    <li><a href="#w">Block3</a></li>
-                    <li><a href="#c">Block4</a></li>
-                    <li><a href="#c">Block5</a></li>
-                    <li><a href="#c">Block6</a></li>
-                </ul>
+                        <a class="navbar-brand" href="#">
+                            <img src="image/logo.png" alt="logo">
+                            <img src="image/template_logo.png" alt="template">
+                        </a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">About us </a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Prices</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
     </header>
-    <div class="home container-fluid">
-        <section class="row">
-            <div class="col-md-2 col-lg-2 col-sm-2"></div>
-            <div class="col-md-8 col-lg-8 col-sm-8 homeContent">
-               <p> Все начинается с улетного сайта!!! </p>
-                <div class="home">
-                    <img src="images/boow.png" alt="">
+    <section>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner mySlider">
+                <div class="item active">
+                        <img src="image/mobil.png" alt="...">
+                        <div class="carousel-caption">
+                            <article class="mySlide">
+                                <header >iOS apps for free</header>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                                    Morbi faucibus augue vitae est volutpat eleifend.
+                                </p>
+                                <button class="moreBtn2"> more info </button>
+                            </article>
+                        </div>
                 </div>
-                <p>
-                    Из чего делается сайт? 
-                </p>
+                <div class="item">
+                    <img src="image/mobil.png" alt="...">
+                    <div class="carousel-caption">
+                        <article class="mySlide">
+                            <header >iOS apps for free</header>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                                Morbi faucibus augue vitae est volutpat eleifend.
+                            </p>
+                            <button class="moreBtn2"> More info </button>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/mobil.png" alt="...">
+                    <div class="carousel-caption">
+                        <article class="mySlide">
+                            <header >iOS apps for free</header>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                                Morbi faucibus augue vitae est volutpat eleifend.
+                            </p>
+                            <button class="moreBtn2"> More info </button>
+                        </article>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-md-2"></div>
-        </section>
-        <section class="row">
-            <a href="#work" class="goto"><span class="glyphicon glyphicon-chevron-down"></span></a>
-        </section>
-    </div>
-    <div class="work container-fluid" id="work">
-        <h1> Work</h1>
-        <section >
-            <section class="row">
+        </div>
+    </section>
+    <section class="container-fluid">
+        <header class="sectionHeader">
+            <img src="image/line.png" alt="">
+            <span>OUR SERVICES</span>
+            <img src="image/line.png" alt="">
+        </header>
 
-                <div class="block1 col-md-5">
-                    <p>
-                        Идейные соображения высшего порядка
-                        , а также дальнейшее развитие различных форм
-                        деятельности играет важную роль в формировании
-                        систем массового участия. Равным образом новая
-                        модель организационной деятельности позволяет
-                        оценить значение соответствующий условий активизации.
-                        Не следует, однако забывать, что реализация намеченных
-                        плановых заданий позволяет оценить значение существенных
-                        финансовых и административных условий. Не следует, однако
-                        забывать, что реализация намеченных плановых заданий требуют
-                        определения и уточнения системы обучения кадров, соответствует
-                        насущным потребностям.
-                    </p>
+        <article class="col-md-4 ourServices">
+            <img src="image/apple.png" alt="...">
+            <h2>Heading 1 </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Morbi faucibus augue vitae est volutpat eleifend.</p>
+            <button class="moreBtn"> more info</button>
+        </article>
+        <article class="col-md-4 ourServices">
+            <img src="image/android.png" alt="...">
+            <h2>Heading 1 </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Morbi faucibus augue vitae est volutpat eleifend.</p>
+            <button class="moreBtn"> more info</button>
+        </article>
+        <article class="col-md-4 ourServices">
+            <img src="image/win8.png" alt="...">
+            <h2>Heading 1 </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Morbi faucibus augue vitae est volutpat eleifend.</p>
+            <button class="moreBtn"> more info</button>
+        </article>
+
+    </section>
+    <section class="container-fluid about">
+        <header class="sectionHeader">
+            <img src="image/line.png" alt="">
+            <span >ABOUT</span>
+            <img src="image/line.png" alt="">
+        </header>
+
+        <aside class="col-md-6 testText">
+            <h2>Test task</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Morbi faucibus augue vitae est volutpat eleifend.
+                Donec lobortis tellus quis nulla varius nec sagittis dui vestibulum.
+                Mauris volutpat tellus id est suscipit placerat. Integer ut feugiat nisi.
+                Etiam dictum condimentum mauris, nec pellentesque augue dignissim ut.
+                Integer commodo vulputate ipsum at vehicula. Fusce sit amet metus quam.
+                In hac habitasse platea dictumst.
+            </p>
+            <h2>SKILLS</h2>
+            <div class="skillBar">
+                <div class="skillBarContainer">
+                    <div class="skillBarValue value-90">
+                        HTML/HTML5
+                    </div>
                 </div>
-             </section>
+            </div>
 
-            <section class="row">
-                <div class=" col-md-6"></div>
-                <div class="block2 col-md-5">
-                    <p>Разнообразный и богатый опыт дальнейшее развитие
-                        различных форм деятельности требуют от нас анализа
-                        новых предложений. Повседневная практика показывает,
-                        что новая модель организационной деятельности представляет
-                        собой интересный эксперимент проверки системы обучения кадров,
-                        соответствует насущным потребностям. Значимость этих проблем настолько
-                        очевидна, что консультация с широким активом влечет за собой процесс внедрения
-                        и модернизации позиций, занимаемых участниками в отношении поставленных задач.
-                        Задача организации, в особенности же консультация с широким активом влечет за собой
-                        процесс внедрения и модернизации
-                        дальнейших направлений развития.
-                    </p>
+            <div class="skillBar">
+
+                <div class="skillBarContainer">
+                    <div class="skillBarValue value-80">
+                        CSS/CSS3
+                    </div>
                 </div>
-            </section>
+            </div>
 
-            <section class="row">
+            <div class="skillBar">
 
-                <div class="block3 col-md-5">
-                    <p>
-                        Идейные соображения высшего порядка, а также консультация с широким активом
-                        обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
-                        Равным образом постоянное информационно-пропагандистское обеспечение
-                        нашей деятельности в значительной степени обуславливает создание новых предложений.
-                    </p>
+                <div class="skillBarContainer">
+                    <div class="skillBarValue value-90">
+                        Photoshop / IlLustrator
+                    </div>
                 </div>
+            </div>
 
-            </section>
-        </section>
-    </div>
-    <div class="contact ">
+            <div class="skillBar">
+                <div class="skillBarContainer">
+                    <div class="skillBarValue value-70">
+                        Mobile design / Responsive design
+                    </div>
+                </div>
+            </div>
+        </aside>
 
-    </div>
+        <aside class="col-md-6">
+            <div id="map_canvas">
+
+            </div>
+            <form action="" >
+                <input class="myFormInput" type="text" placeholder="NAME">
+                <input class="myFormInput" type="text" placeholder="E-MAIL">
+                <input class="myFormInput" type="text" placeholder="PHONE">
+                <div class="textarea">
+                    <textarea class="myFormInputText"  placeholder="MESSAGE"></textarea>
+                </div>
+                    <input class="myFormSubmit" type="submit" value="send">
+
+            </form>
+        </aside>
+
+    </section>
     <footer>
-        <p>|</p>
-        <p>
-            Portfolio-page
-        </p>
-        <p>
-            author: Alexandr
-        </p>
+        <p>Copyright here</p>
     </footer>
-    <div class="toTop"><span class="glyphicon glyphicon-chevron-up"></span></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="js/myScript.js"></script>
 </body>
 </html>
