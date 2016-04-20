@@ -1,148 +1,40 @@
-a:active, a:visited , a:focus{
-    border: none;
+a,a:focus,a:active,a:hover{
+    color: inherit;
+    text-decoration: none;
 }
-.myNavbar {
-    background-color: #666;
-    border-radius: none;
+
+div.logo{
+    background: #000000;
+    color:#ffffff;
+
+    font-family:  monospace;
+    font-size: 2em;
+    font-weight: bold;
 }
-.navMenu{
-    margin:10px 0;
-    color: #080808;
+div.logo img{
+    height: 128px;
 }
-section.mySlider{
-    background:url(../image/slider_bg.png) no-repeat center;
-    background-color: #66ccff;
+div.newIndent{}
+div.newIndent h3{
+    font-family: monospace;
+    font-size: 1.4em;
+    font-weight: bold;
+
+    border-bottom: 2px solid red;
 }
-div.mySlider{
-    height: 471px;
+span.name{
+    color: #31b0d5 ;
 }
-.item > img{
-    padding-top: 25px;
-}
-.mySlide{
-    float: right;
-    text-align: left;
-}
-.mySlide > header{
-    font-size: 300%;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    text-shadow: 1px 1px 1px black;
-}
-.mySlide > p {
-    font-family: 'Open Sans light';
-    font-weight: normal;
-    color: #547b8d;
-    text-shadow: none;
-    font-size: 150%;
-}
-.moreBtn2{
-    border:none;
-    font-size: 18px;
-    background: #72abda;
-    color:#fff;
-    padding: 10px 40px;
-}
-.sectionHeader{
-    font-family: 'Open Sans light';
-    text-align: center;
-    color:#5b6169;
-    padding: 25px;
-    font-size: 36px;
-}
-.ourServices {
-    text-align: center;
-    padding: 25px 20px;
-}
-.moreBtn{
-    border:none;
-    font-size: 16px;
-    background: #3674ba;
-    color:#fff;
-    padding: 10px 40px;
-}
-.about{
-    background-color: #d1d1d1;
-}
-.testText{
-    font-size: 18px;
-    color:#5b6169;
-}
-#map_canvas{
-    height:250px ;
-}
-.myFormInput{
-    padding: 5px;
-    margin: 5px 0;
-    color: #7b7b7b;
-    border: none;
-    background-color: #f1f1f1;
+footer{
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    font-size: 18px;
-}
-textarea.myFormInputText{
-    padding: 5px;
-    color: #7b7b7b;
-    border: none;
-    background-color: #f1f1f1;
-    width: 100%;
-    font-size: 18px;
-    height: 130px;
-    position: relative;
-    z-index: 1;
-}
-.myFormSubmit {
-    position: relative;
-    top: -40px;
-    font-size: 18px;
+    text-align: center;
+
+    background: #000000;
     color: #ffffff;
-    background: #3674ba;
-    border: none;
-    padding: 5px 25px;
-    float: right;
-    font-family: sans-serif;
-    z-index: 5;
+
+    font-family:  monospace;
+    font-size: 1em;
+    font-weight: bold;
 }
-.textarea{
-    height: 135px;
-}
-footer {
-    text-align: center;
-    padding:33px;
-}
-footer > p {
-    font-size: 12pt;
-    color:#7b7b7b;
-}
-/*** skill ***/
-.skillBar {
-    margin-bottom:26px;
-    margin-bottom: 1.66em;
-}
-.skillBarContainer {
-    width: 100%;
-    background: #e6eae3;
-    background: rgb(8,102,220);
-    background: rgba(8,102,220,.2);
-    overflow: hidden;
-}
-.skillBarValue {
-    float: left;
-    padding: 5px;
-    color: #fff;
-    font-weight: 700;
-    background:#0866dc;
-    background: rgb(8,102,220);
-    background: rgba(8,102,220,.75);
-}
-.value-00  { width: 0;    }
-.value-10  { width: 10%;  }
-.value-20  { width: 20%;  }
-.value-30  { width: 30%;  }
-.value-40  { width: 40%;  }
-.value-50  { width: 50%;  }
-.value-60  { width: 60%;  }
-.value-70  { width: 70%;  }
-.value-80  { width: 80%;  }
-.value-90  { width: 90%;  }
-.value-100 { width: 100%; }

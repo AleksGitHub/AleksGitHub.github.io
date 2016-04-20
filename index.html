@@ -1,206 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Test task</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default " role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div>
-
-                        <a class="navbar-brand" href="#">
-                            <img src="image/logo.png" alt="logo">
-                            <img src="image/template_logo.png" alt="template">
-                        </a>
-                    </div>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">About us </a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Prices</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section class="mySlider ">
-        <div class="container">
-            <div class="row">
-                <div id="carousel-example-generic" class="carousel slide col-md-12 col-lg-12 col-sm-12" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner mySlider">
-                        <div class="item active">
-                                <img src="image/mobil.png" alt="...">
-                                <div class="carousel-caption">
-                                    <article class="mySlide">
-                                        <header >iOS apps for free</header>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-                                            Morbi faucibus augue vitae est volutpat eleifend.
-                                        </p>
-                                        <button class="moreBtn2"> more info </button>
-                                    </article>
-                                </div>
-                        </div>
-                        <div class="item">
-                            <img src="image/mobil.png" alt="...">
-                            <div class="carousel-caption">
-                                <article class="mySlide">
-                                    <header >iOS apps for free</header>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-                                        Morbi faucibus augue vitae est volutpat eleifend.
-                                    </p>
-                                    <button class="moreBtn2"> More info </button>
-                                </article>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="image/mobil.png" alt="...">
-                            <div class="carousel-caption">
-                                <article class="mySlide">
-                                    <header >iOS apps for free</header>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-                                        Morbi faucibus augue vitae est volutpat eleifend.
-                                    </p>
-                                    <button class="moreBtn2"> More info </button>
-                                </article>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </divcl>
+        <div class="logo">
+            <a href="index.html">
+            <img src="images/logo.png" alt="Logo"/>
+            Головоломка
+            </a>
         </div>
-    </section>
-    <section class="container">
-        <header class="sectionHeader">
-            <img src="image/line.png" alt="">
-            <span>OUR SERVICES</span>
-            <img src="image/line.png" alt="">
-        </header>
+    </header>
+    <section id="aboutProject">
+        <div class="newIndent">
+            <h3>О проекте</h3>
+            <p>Данный проэкт создан для тренеровки мозга. Сдесь собраны задачки, головоломки и просто "тренажеры".
 
-        <article class="col-md-4 ourServices">
-            <img src="image/apple.png" alt="...">
-            <h2>Heading 1 </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Morbi faucibus augue vitae est volutpat eleifend.</p>
-            <button class="moreBtn"> more info</button>
-        </article>
-        <article class="col-md-4 ourServices">
-            <img src="image/android.png" alt="...">
-            <h2>Heading 1 </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Morbi faucibus augue vitae est volutpat eleifend.</p>
-            <button class="moreBtn"> more info</button>
-        </article>
-        <article class="col-md-4 ourServices">
-            <img src="image/win8.png" alt="...">
-            <h2>Heading 1 </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Morbi faucibus augue vitae est volutpat eleifend.</p>
-            <button class="moreBtn"> more info</button>
-        </article>
-
-    </section>
-    <section class="about">
-        <section class="container about">
-        <header class="sectionHeader">
-            <img src="image/line.png" alt="">
-            <span >ABOUT</span>
-            <img src="image/line.png" alt="">
-        </header>
-
-        <aside class="col-md-6 testText">
-            <h2>Test task</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Morbi faucibus augue vitae est volutpat eleifend.
-                Donec lobortis tellus quis nulla varius nec sagittis dui vestibulum.
-                Mauris volutpat tellus id est suscipit placerat. Integer ut feugiat nisi.
-                Etiam dictum condimentum mauris, nec pellentesque augue dignissim ut.
-                Integer commodo vulputate ipsum at vehicula. Fusce sit amet metus quam.
-                In hac habitasse platea dictumst.
             </p>
-            <h2>SKILLS</h2>
-            <div class="skillBar">
-                <div class="skillBarContainer">
-                    <div class="skillBarValue value-90">
-                        HTML/HTML5
-                    </div>
-                </div>
-            </div>
+        </div>
+        <div class="newIndent">
+            <h3>Игры - тренажеры</h3>
+            <p>Вашему вниманию игры ддя тренеровки мозгов. Список будет пополняться по мере возможности</p>
+            <ul>
+                <li><a href="content/sapper/index.html">Sapper (игра)</a></li>
+                <li><a href="content/counting/index.html">Считалочки (тренажер)</a></li>
+            </ul>
+        </div>
 
-            <div class="skillBar">
-
-                <div class="skillBarContainer">
-                    <div class="skillBarValue value-80">
-                        CSS/CSS3
-                    </div>
-                </div>
-            </div>
-
-            <div class="skillBar">
-
-                <div class="skillBarContainer">
-                    <div class="skillBarValue value-90">
-                        Photoshop / IlLustrator
-                    </div>
-                </div>
-            </div>
-
-            <div class="skillBar">
-                <div class="skillBarContainer">
-                    <div class="skillBarValue value-70">
-                        Mobile design / Responsive design
-                    </div>
-                </div>
-            </div>
-        </aside>
-
-        <aside class="col-md-6">
-            <div id="map_canvas">
-
-            </div>
-            <form action="" >
-                <input class="myFormInput" type="text" placeholder="NAME">
-                <input class="myFormInput" type="text" placeholder="E-MAIL">
-                <input class="myFormInput" type="text" placeholder="PHONE">
-                <div class="textarea">
-                    <textarea class="myFormInputText"  placeholder="MESSAGE"></textarea>
-                </div>
-                    <input class="myFormSubmit" type="submit" value="send">
-
-            </form>
-        </aside>
-
-    </section>
     </section>
     <footer>
-        <p>Copyright here</p>
+        на данном сайте, не чего не продается. Это всеголишь собрание полезных ресурсов! Создатель сайта: <span class="name">Александр Судейченко</span>
     </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="js/myScript.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myScript.js"></script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saper</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Seymour+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="mainHeader">Сапер</h1>
+        <h2 class="titleHeader"></h2>
+        <div class="center"> </div>
+    </div>
+</header>
+    <div id="mainForm">
+        <div class="container">
+        <div class="center">
+	        <form action="" class="mainForm">
+	            <span>Количество бомб</span>
+	            <input class="littleForm" id ='bombNumb' type="number" name="bombNumb" value="7"/>
+	                <span>Ширина поля</span>
+	                <input class="littleForm" id ='fieldWidth' type="number" name="fieldWidth" value="10"/>
+	                <span>Высота поля</span>
+	                <input class="littleForm" id ='fieldHeight' type="number" name="fieldHeight" value="10"/>
+        </div>
+            <div class="center">
+            	<input class="button" type="button" value="Начинаем взрывульки :D" onclick="newGame()"/>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div class="wrapMainField">
+        <div id="mainField" class="mainField"></div>
+    </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Saper.js"></script>
+</body>
+</html>

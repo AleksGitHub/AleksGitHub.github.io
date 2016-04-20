@@ -1,0 +1,52 @@
+.description{
+    font-family: monospace;
+    font-size:1.2em;
+}
+.description h3{
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+.littleForm{width: 40px;}
+.wrapMainField{display: block; text-align: center;}
+.mainField{margin: 25px auto;  display: inline-block; position: relative;}
+.line{height:23px ; clear:both; }
+.cell{
+    height: 30px;
+    width: 30px;
+    padding:3px ;
+    background: #fff;
+    float: left;
+    border: 2px solid #2f2f2f;
+    font-weight: bold;
+    font-size: large;
+}
+.mainHeader{
+    text-align: center;
+    color: #fff;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 70px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+.titleHeader{
+    text-align: center;
+    color: #fff;
+    font-family: 'Andika', sans-serif;
+}
+.center{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.c1{color: #2f2f2f ;}
+.c2{ color: green ;}
+.c3{ color: chocolate;}
+.c4{ color: maroon;}
+.c5{ color: blueviolet;}
+.c6{ color: darkblue;}
+.c7{ color: fuchsia;}
+.c8{ color: black;}
+#main{
+    padding:50px;
+}
