@@ -2,41 +2,331 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Портфолио</title>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <title>TeaCompany</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <a href="index.html">
-            <img src="images/logo.png" alt="Logo"/>
-            Головоломка
-            </a>
+<body >
+    <div class="header container" id="top">
+            <div class="logo">
+                        <a href="#">
+                            <span>Tea</span>
+                            <span>Company</span>
+                            <i class="fa fa-envira"></i>
+                            <p>Landing Page</p>
+                        </a>
+            </div>
+            <div class="slogan">
+                <p>Tea. The way it should really be.</p>
+                <p>The importer in purveyor of fine tea since 1946 </p>
+            </div>
+    </div>
+    <div class="form container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <img src="img/kettle.jpg" alt=""/>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <form action="">
+                    <div class="formWrapper">
+                        <input type="text"/> <br/>
+                        <input type="text"/> <br/>
+                        <input type="text"/> <br/>
+                        <input type="submit" class="submitForm"/>
+                    </div>
+                </form>
+            </div>
         </div>
-    </header>
-    <section id="aboutProject">
-        <div class="newIndent">
-            <h3>О проекте</h3>
-            <p>Данный проэкт создан для тренеровки мозга. Сдесь собраны задачки, головоломки и просто "тренажеры".
+    </div>
+    <div class="boasting container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <h5 class="h5">A global selection</h5>
 
-            </p>
-        </div>
-        <div class="newIndent">
-            <h3>Игры - тренажеры</h3>
-            <p>Вашему вниманию игры ддя тренеровки мозгов. Список будет пополняться по мере возможности</p>
-            <ul>
-                <li><a href="content/sapper/index.html">Sapper (игра)</a></li>
-                <li><a href="content/counting/index.html">Считалочки (тренажер)</a></li>
-            </ul>
-        </div>
+                <p>
+                    Our nearly 100 hand-selected teas from across the
+                    globe meet superior standards for freshness,
+                    flavor and quality
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <i class="fa fa-coffee" aria-hidden="true"></i>
 
-    </section>
-    <footer>
-        на данном сайте, не чего не продается. Это всеголишь собрание полезных ресурсов! Создатель сайта: <span class="name">Александр Судейченко</span>
-    </footer>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/myScript.js"></script>
+                <h5>Superior tea</h5>
+
+                <p>
+                    From traditional oolong, black, white, rooibos,
+                    herbal and green to specialty flavored and blooming,
+                    we offer only the finest teas.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <i class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></i>
+
+                <h5> Sustainability </h5>
+
+                <p>
+                    It's important to us. We work directly with tea
+                    farmers around the globe;
+                    most of our teas are Fair Trade and Organic.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <i class="fa fa-users" aria-hidden="true"></i>
+
+                <h5>Great service</h5>
+
+                <p>
+                    Our goal is to provide extraordinary products backed by
+                    top-notch customer service,
+                    education and true passion for tea.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="aboutUs container">
+        <h4>About Us</h4>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+                <p>
+                    We want our teas to have more than just great flavor.
+                    Great tea should also have superb
+                    health properties and be high in quality.
+                </p>
+                <p>
+                    We also treasure our community and our environment.
+                    Therefore, we put forth our best efforts to practise sustainable
+                    and green activities for the sake of our community and natural environment.
+                </p>
+                <p>
+                    We all just want to be…happy. We all want to be healthy.
+                    We all want a feeling of belonging and interaction.
+                    Tea culture makes it all possible.
+                    We want to make a difference through sharing our love for tea and tea culture.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="img/tea.jpg" alt="tea"/>
+            </div>
+        </div>
+    </div>
+    <div class="ourTeas container">
+        <h5>Our Teas</h5>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <ul>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Earl Gray
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Assam
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Chai
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Tamayokucha
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Jasmine
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <ul>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Tropical Green
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Alphe Berry
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Chamomile
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Peppermint
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        African Sunset
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <ul>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Better Morning
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Better Belly
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Better Rest
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        English Breakfast
+                    </li>
+                    <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        Whiter than white
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="news container">
+        <h5>Latest news</h5>
+        <div class="row">
+           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+               <div>
+                    <p>
+                        <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                        What is Irish breakfast?
+                    </p>
+                    <p>
+                        Irish Breakfast is not English Breakfast that's been dyed green
+                        and sold by a leprechaun. English Breakfast is a blend of black teas
+                        that's meant to brew up strong and black.
+                        Irish Breakfast is the same thing, but perhaps even more strong and rich.
+                    </p>
+               </div>
+               <div>
+                    <p>
+                        <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                        English breakfast served all day long
+                    </p>
+                    <p>
+                        English Breakfast is a blend of tea from several spots around the world,
+                        including Assam, India; Ceylon, and Kenya. But here's the main point:
+                        it's black tea that brews up strong and dark,
+                        sometimes people refer to it as "full-bodied" or "robust",
+                        and it works well with milk and sugar.
+                    </p>
+                </div>
+           </div>
+           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+               <div>
+                    <p>
+                        <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                        Raise the roof for rooibos tea!
+                    </p>
+                    <p>
+                        Rooibos, also known as red tea, sometimes seems like the
+                        red-headed stepchild of the tea world. Black, green, herbal
+                        and even white tea seem to get a lot of attention,
+                        so let's take a moment to appreciate red tea, with some fun facts.
+                    </p>
+               </div>
+               <div>
+                    <p>
+                        <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                        Plant it, pick it, steep it
+                    </p>
+                    <p>
+                        When the life gives you mint and lavender ... brew a tea.
+                        As tea lovers, you guys know that herbal tea isn't technically "tea",
+                        right? Tea leaves are actually all from the same plant,
+                        which is called Camellia sinensis, and grows in very specific climates.
+                    </p>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div class="subscribe container">
+        <h4>Subscribe</h4>
+        <p>Subscribe to the Tea company mailing list to receive updates on new arrivals,
+            special offers and other discount information. </p>
+
+        <form action="">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <input type="text" class="eMail" placeholder="Enter your e-mail"/>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-4  col-sm-offset-4 col-xs-12">
+                        <input type="submit" class="submitSubscribe" value="Subscribe"/>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="revise container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div>
+                    <p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        The tea from the Tea Company is truly unique. This has to be tea at it`s finest.
+                    </p>
+                    <div class="user">
+                        <img src="img/face1.jpg" alt=""/>
+                        <p class="name">Mark Johnson</p>
+                        <p class="town">Minneapolis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div>
+                    <p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        Your Rooibos really is the best I have ever tasted! This is one of my favourite teas.
+                    </p>
+                    <div class="user">
+                        <img src="img/face2.jpg" alt=""/>
+                        <p class="name">Laura Stegner</p>
+                        <p class="town">South Hadley</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div>
+                    <p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        Absolutely love the Oolong and the Earl Grey is the best we have had from anywhere.
+                    </p>
+                    <div class="user">
+                        <img src="img/face3.jpg" alt=""/>
+                        <p class="name">John McCoist</p>
+                        <p class="town">New York</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <div class="footer container">
+        <h4>From White to Black tea and everything in between</h4>
+        <p>Old tradition with a fresh perspective!</p>
+        <input type="button" value="GET STARTED NOW!"/>
+    </div>
+
+    <a href="#top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
