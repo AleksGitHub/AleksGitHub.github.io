@@ -135,7 +135,7 @@ body a:focus{
     text-align: justify;
 }
 .aboutUs div>img{
-    margin: auto;
+    max-width: 100%;
 }
 .ourTeas div.row{
     padding: 25px 40px;
