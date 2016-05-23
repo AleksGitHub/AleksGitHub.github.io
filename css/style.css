@@ -1,6 +1,9 @@
 body > div {
     margin: 75px 0;
 }
+input:focus{
+    outline: none;
+}
 body img {
     max-width:100%;
 }
@@ -115,6 +118,7 @@ body a:focus{
     font-size: 1.2em;
 }
 .aboutUs h4{
+    margin: 25px 0 50px 0;
     text-align: center;
     font-size: 3em;
 }
@@ -122,11 +126,16 @@ body a:focus{
     color: #6cb33f;
     font-size: 2em;
     margin: 25px 0 0 0;
+    text-align: justify;
 }
 .aboutUs div p{
     color: #888888;
     font-size: 1.2em;
     margin: 25px 0 ;
+    text-align: justify;
+}
+.aboutUs div>img{
+    margin: auto;
 }
 .ourTeas div.row{
     padding: 25px 40px;
@@ -150,13 +159,17 @@ body a:focus{
     font-size: 1em;
     font-weight: 200;
     color: #6cb33f;
+    margin: 0 10px;
 }
 .news div.row{
     padding: 15px 45px;
 }
+.news div.row>div>div{
+    margin:25px 0;
+}
 .news h5{
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     margin: 25px 0 40px 0;
 }
 .news div.row p:first-child{
@@ -199,6 +212,10 @@ body a:focus{
     padding: 7px;
     color:#000000;
 }
+.subscribe .eMail::-webkit-input-placeholder {
+    color: white;
+}
+
 .submitSubscribe{
     width: 100%;
     background: #6cb33f;
