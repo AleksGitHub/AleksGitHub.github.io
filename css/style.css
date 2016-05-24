@@ -138,7 +138,7 @@ body a:focus{
     max-width: 100%;
 }
 .ourTeas div.row{
-    padding: 25px 40px;
+    padding: 25px 0;
 }
 .ourTeas h5{
     text-align: center;
@@ -152,17 +152,16 @@ body a:focus{
 }
 .ourTeas li{
     margin: 15px 0;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #888;
 }
 .ourTeas i{
     font-size: 1em;
     font-weight: 200;
     color: #6cb33f;
-    margin: 0 10px;
 }
 .news div.row{
-    padding: 15px 45px;
+    padding: 15px 0;
 }
 .news div.row>div>div{
     margin:25px 0;
@@ -173,14 +172,13 @@ body a:focus{
     margin: 25px 0 40px 0;
 }
 .news div.row p:first-child{
-    margin-left: 25px;
     font-size: 1.5em;
     color:#080808;
 }
 .news div.row i{
     color:#6cb33f;
     font-size: 3em;
-    padding-right: 25px;
+    padding-right: 0;
 }
 .news div.row p{
     text-align: justify;
@@ -226,7 +224,16 @@ body a:focus{
     border-radius: 5px;
     font-size: 1.5em;
     margin: 15px 0;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
 }
+.submitSubscribe:hover{
+    background: orange;
+}
+
 .revise  i{
     font-size: 1.5em;
     color:orange;
@@ -278,6 +285,14 @@ div.user{
     background-color: #6cb33f;
     border:none;
     color: #ffffff;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+.footer input:hover{
+    background: orange;
 }
 
 body>a>i.fa{
