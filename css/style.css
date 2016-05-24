@@ -1,6 +1,3 @@
-body > div {
-    margin: 75px 0;
-}
 input:focus{
     outline: none;
 }
@@ -19,7 +16,6 @@ body a:focus{
     color:#000000;
     text-decoration: none;
     outline: none;
-
 }
 .header{
     margin: 50px 0 ;
@@ -35,7 +31,6 @@ body a:focus{
 .header .logo a>span{
     color: #333;
     font-size: 36px;
-
 }
 .header .logo a>p{
     font-size: 10px;
@@ -44,7 +39,6 @@ body a:focus{
 .logo i.fa-envira {
     font-size: 2em;
     color:#6cb33f;
-
 }
 .slogan > p:first-child{
     font-size: 4em;
@@ -72,6 +66,7 @@ body a:focus{
     margin: 7px 0 ;
 }
 .form div.formWrapper input.submitForm{
+    font-size: 1.8em;
     background-color: #6cb33f;
     border:none;
     color: #ffffff;
