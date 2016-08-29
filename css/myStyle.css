@@ -1,0 +1,76 @@
+img{max-width: 100%}
+header.head{
+    height: 100vh;
+    background:url(../img/bg_city.jpg)no-repeat 50% 50%;
+    background-size: cover;
+}
+header.head div.bg_head{
+ //   background: rgba(0,0,0,0.5);
+}
+
+header.head div.bg_head div.headerContent{
+    color:#fff;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+header.head div.bg_head div.headerContent h2{
+    font-size: 3.5em;
+    padding: 150px 0 15px 0 ;
+}
+header.head div.bg_head div.headerContent p{
+    font-size: 2.5em;
+    padding: 15px 0 150px 0 ;
+}
+header.head div.bg_head div.headerContent input {
+    margin-top: 15px ;
+    border: 2px solid #ffffff;
+    border-radius: 5%;
+    background: #d2a0be;
+    font-size: 0.7em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+div.portfolio div.container > h2{
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+div.portfolio div.menuView{
+    margin: 35px 0 50px 0;
+}
+div.portfolio div.itemPortfolio {
+    padding: 10px 0 75px 0;
+}
+div.portfolio div.itemPortfolio > div{
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px 20px;
+}
+div.portfolio div.itemPortfolio > div > img {
+    border: 2px solid #000000;
+}
+div.portfolio div.menuView{
+    font-size: 1.5em;
+    color: #2aabd2;
+}
+div.portfolio div.menuView input{
+    border: none;
+    background: none;
+    color: #2aabd2;
+    outline: none;
+}
+div.portfolio div.menuView input.active{
+    border: 2px solid #d43f3a;
+    border-radius: 15px;
+    color: #d43f3a;
+
+}
+
+
+body{
+    height: 5000px;
+}
