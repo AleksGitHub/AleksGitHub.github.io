@@ -1,8 +1,0 @@
-.question:nth-child(even) {
-	background:#fcfcfc;
-	padding: 25px 50px;
-}
-.question:nth-child(odd){
-	background:#ccc;
-	padding: 25px 50px;
-}
