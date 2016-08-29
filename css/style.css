@@ -1,4 +1,3 @@
-/** style for tag **/
 input:focus{
     outline: none;
 }
@@ -18,581 +17,311 @@ body a:focus{
     text-decoration: none;
     outline: none;
 }
-/** main class **/
-.z-index-2{
-    z-index: 2;
+.header{
+    margin: 50px 0 ;
+    text-align: center;
 }
-.relative{
-    position: relative;
+.header .logo{
+    margin: 50px 0;
 }
-.absolute{
-    position: absolute;
+.header .logo a>span:first-child{
+    color: #6cb33f;
+    font-weight: 700;
 }
-.full-height{
-    min-height: 100vh;
+.header .logo a>span{
+    color: #333;
+    font-size: 36px;
 }
-@media (max-width: 768px){
-    .big{
-        font-size: 2.4em;
-    }
+.header .logo a>p{
+    font-size: 10px;
+    letter-spacing: 8px;
 }
-@media (min-width: 768px) {
-    .big{
-        font-size: 2.4em;
-    }
+.logo i.fa-envira {
+    font-size: 2em;
+    color:#6cb33f;
 }
-@media (min-width: 992px) {
-    .big{
-        font-size: 3em;
-    }
+.slogan > p:first-child{
+    font-size: 4em;
+    color: #333;
 }
-@media (min-width: 1200px) {
-    .big{
-        font-size: 4em;
-    }
+.slogan > p{
+    font-size: 2em;
+    color:#888888;
 }
-.myContainer{
-    min-width: 320px;
-    max-width: 420px;
+.form div.formWrapper{
+    margin:50px 0;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px ;
 }
-/** ***header*** **/
-header.header_bg{/*header gradient*/
-    overflow: hidden;
-    background: linear-gradient(45deg, transparent 90%, rgba(19, 18, 21, 0.25) 100%),
-    linear-gradient(-45deg, transparent 95%, rgba(19, 18, 21, 0.25) 100%),
-    linear-gradient(135deg, transparent 90%, rgba(19, 18, 21, 0.25) 100%),
-    linear-gradient(-135deg, transparent 95%, rgba(19, 18, 21, 0.25) 100%),
-    radial-gradient(circle at 70% 50%, #686f79 20%, #181e24 100%);
-}
-header.header_bg::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.4);
-    z-index: 1;
-}
-header img.bg_1{
-    height: 100%;
-    width: auto;
-    max-width: none;
-}
-header div.container div.row{
-    padding: 8% 0;
-}
-div.logo  span.absolute{
-    padding: 0 5px;
-    top:45%;
-    background: #ffffff;
-
-    color:#333;
-    letter-spacing: 2px;
-    font-size: 1.3em;
-    text-transform: uppercase;
-}
-div.logo  span.big{
-    padding-left: 75px;
-    letter-spacing: 7px;
-    font-size: 10em;
-    font-family: 'Dorsa';
-    color: #ffffff;
-    text-transform: uppercase;
-}
-div.offer h5{
-    font-family: "Cabin", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #bdc2ca;
-}
-div.offer h3{
-    font-family: "Cabin", sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #fff;
-}
-div.offer .myBtn{
-    margin-top:45px ;
-
-    display: inline-block;
+.form div.formWrapper input{
+    background-color: #efefef ;
+    color:#6cb33f;
     padding: 10px;
-    background: #e72525;
-    border:2px #e72525 solid;
-
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: 600;
-    color:#fff;
-    letter-spacing: 1px;
-
+    width:100%;
+    height: 2em;
+    font-size: 2em;
+    border: 2px solid #ccc;
+    border-radius: 5px ;
+    margin: 7px 0 ;
+}
+.form div.formWrapper input.submitForm{
+    font-size: 1.8em;
+    background-color: #6cb33f;
+    border:none;
+    color: #ffffff;
     -webkit-transition: background 1s;
     -moz-transition: background 1s;
     -ms-transition: background 1s;
     -o-transition: background 1s;
     transition: background 1s;
 }
-div.offer .myBtn:hover{
-    background: #fff;
-    color: #e72525;
+.form div.formWrapper input.submitForm:hover{
+    background: orange;
 }
-@media (min-width: 768px) {
-    header.header_bg img.bg_1{
-        margin-left: 45%;
-    }
+.boasting > div.row div {
+    text-align: center;
+    margin: 70px 0;
 }
-/** ***Contact*** **/
-section.contact div.row{
+.boasting i{
+    text-align: center;
+    vertical-align: top;
+    background: #6cb33f;
+    min-width: 185px;
+    min-height: 170px;
+    font-size: 6em;
+    padding: 50px;
+    border-radius: 50%;
+    color:#fff;
+}
+.boasting i:hover{
+    background: orange;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s
+}
+.boasting h5{
+    font-size: 2em;
+    margin: 25px 0;
+}
+.boasting p{
+    color:#888888;
+    text-align: justify;
+    padding: 0 5%;
+    font-size: 1.2em;
+}
+.aboutUs h4{
+    margin: 25px 0 50px 0;
+    text-align: center;
+    font-size: 3em;
+}
+.aboutUs div p:first-child{
+    color: #6cb33f;
+    font-size: 2em;
+    margin: 25px 0 0 0;
+    text-align: justify;
+}
+.aboutUs div p{
+    color: #888888;
+    font-size: 1.2em;
+    margin: 25px 0 ;
+    text-align: justify;
+}
+.aboutUs div>img{
+    max-width: 100%;
+}
+.ourTeas div.row{
+    padding: 25px 0;
+}
+.ourTeas h5{
+    text-align: center;
+    font-size: 3em;
+    color: #6cb33f;
+}
+.ourTeas ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ourTeas li{
+    margin: 15px 0;
+    font-size: 1.8em;
+    color: #888;
+}
+.ourTeas i{
+    font-size: 1em;
+    font-weight: 200;
+    color: #6cb33f;
+}
+.news div.row{
     padding: 15px 0;
 }
-section.contact div.row div{
-    padding: 0;
+.news div.row>div>div{
+    margin:25px 0;
 }
-section.contact ul{
-    padding: 0;
-    font-family: "cabin";
-    list-style: none;
-}
-section.contact ul li{
-    display: inline-block;
-    font-size: 1.5em;
-    padding: 5px 10px;
-}
-@media (max-width: 768px) {
-    section.contact ul{
-        text-align: center;
-    }
-}
-div.row div ul.listMail li{
-    padding: 0 35px;
-}
-ul.listMail li:first-child{
-    border-right: 2px #7d8684 solid ;
-}
-@media (max-width: 480px) {
-    ul.listMail li:first-child{
-        border:none;
-    }
-    
-}
-ul.listMail li:first-child a{
-    color: #222222;
-    -webkit-transition: color 0.5s;
-    -moz-transition: color 0.5s;
-    -ms-transition: color 0.5s;
-    -o-transition: color 0.5s;
-    transition: color 0.5s;
-}
-ul.listMail li:first-child a:hover{
-    color:#e72525;
-}
-ul.listMail li:last-child a{
-    color: #e72525;
-    -webkit-transition: color 0.5s;
-    -moz-transition: color 0.5s;
-    -ms-transition: color 0.5s;
-    -o-transition: color 0.5s;
-    transition: color 0.5s;
-}
-ul.listMail li:last-child a:hover{
-    color: #222222;
-}
-ul.listSocial{
-    text-align: right;
-}
-ul.listSocial li a i{
-    color: #7d8684;
-    -webkit-transition: color 0.5s;
-    -moz-transition: color 0.5s;
-    -ms-transition: color 0.5s;
-    -o-transition: color 0.5s;
-    transition: color 0.5s;
-}
-ul.listSocial li a i:hover{
-    color:#e72525;
-}
-/** **welcome** */
-section.welcome div.container div.row div{
+.news h5{
     text-align: center;
-    padding: 10px 0;
-}
-section.welcome span.big{
-    color: #d0d9e2;
-    text-align: center;
-    font-family: "Dorsa";
-
-}
-section.welcome h4.big{
-    text-align: center;
-    letter-spacing: 7px;
-    color: #222222;
-    font-family: "Dorsa";
     font-size: 3em;
-    text-transform: uppercase;
+    margin: 25px 0 40px 0;
 }
-section.welcome p{
-    padding-top: 10px;
-    color: #52535a;
-    font-family: "Cabin";
-    font-weight: 400;
+.news div.row p:first-child{
+    font-size: 1.5em;
+    color:#080808;
+}
+.news div.row i{
+    color:#6cb33f;
+    font-size: 3em;
+    padding-right: 0;
+}
+.news div.row p{
+    text-align: justify;
+    color: #888888;
     font-size: 1.2em;
 }
-@media (max-width: 768px) {
-    section.welcome span.big{
-        font-size: 4em;
-    }
-    section.welcome div.myContainer{
-        min-width: 320px;
-        max-width: 420px;
-        margin: auto;
-    }
-}
-@media (min-width: 768px) {
-    section.welcome div.col-sm-4{
-        text-align: right;
-    }
-    section.welcome div.container div.row div.myContainer{
-        border-left: 2px #d0d9e2 solid;
-        padding-left: 25%;
-        text-align: left;
-        font-size: 1.2em;
-    }
-    section.welcome span.big{
-        font-size: 15em;
-    }
-}
-@media (min-width: 992px){
-    section.welcome div.row div img{
-        max-width: none;
-        height: auto;
-        position: relative;
-        top: 0;
-        left: -150%;
-    }
-}
-/** **photo gallery** **/
-section.photoGallery div.container h2{
-    display: none;
-}
-section.photoGallery h3{
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 3em;
-    letter-spacing: 4px;
-    font-family: "Dorsa";
-}
-section.photoGallery div.border {
-    border-bottom: 3px #7d8684 solid;
-}
-section.photoGallery div.photo{
+.subscribe{
+    margin: 150px 0;
     text-align: center;
+    background: none;
 }
-section.photoGallery div.photo div{
-    padding: 15px 10px;
-    overflow: hidden;
+.subscribe h4{
+    color: #6cb33f;
+    font-size: 2.5em;
 }
-section.photoGallery div.photo div img{
-    width: 100%;
-    height: 100%;
+.subscribe p{
+    margin: 50px 0;
+    font-size: 1.5em;
+    color:#101010;
 }
-section.photoGallery div.numb h3.big{
-    text-align: center;
-    color: #7d8684;
-    text-transform: uppercase;
-    font-size: 13em;
-    letter-spacing: 4px;
-    font-family: "Dorsa";
-}
-@media (max-width: 768px) {
-    section.photoGallery div.container h2.big{
-        display: block;
-        text-align: center;
-        text-transform: uppercase;
-        color: #e72525;
-        font-size: 4em;
-        font-family: "Dorsa";
-    }
-    section.photoGallery h3{
-        text-align: center;
-    }
-    section.photoGallery div.numb{
-        display: none;
-    }
-}
-@media (min-width: 992px) {
-    section.photoGallery div.numb h3.big {
-        font-size: 17em;
-    }
-}
-@media (min-width: 1200px) {
-    section.photoGallery div.numb h3.big {
-        font-size: 21em;
-    }
-}
-/** ** house training** **/
-section.houseTraining{
-    background-image: url(../img/bg_2.jpg) ;
-    background-size: cover;
-    z-index: -2;
-}
-section.houseTraining div.row>div{
+.subscribe .eMail{
     margin: 15px 0;
-    border-left: 3px #fff solid ;
-}
-section.houseTraining h2{
-    display: block;
-    text-align: left;
-    text-transform: uppercase;
-    color: #333;
-    font-size: 6em;
-    font-family: "Dorsa";
-}
-section.houseTraining p{
-    text-align: justify;
-    font-family: 'cabin';
-    font-size: 1.3em;
-    color: #52535a;
-}
-section.houseTraining span.big{
-    text-align: left;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 14em;
-    font-family: "Dorsa";
-}
-section.houseTraining h3{
-    display: none;
-}
-@media (max-width: 768px) {
-    section.houseTraining::before{
-        content: "";
-        position: absolute;
-        top:0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: rgba(255,255,255, 0.4);
-        z-index: -1;
-    }
-    section.houseTraining div.row>div{
-        border-left: none;
-    }
-    section.houseTraining h3{
-        display: block;
-        margin: 15px 0;
-        text-align: center;
-        text-transform: uppercase;
-        color: #888;
-        font-size: 5em;
-        font-family: "Dorsa";
-    }
-    section.houseTraining h2{
-        text-align: center;
-        letter-spacing: 3px;
-    }
-    section.houseTraining p{
-        max-width: 480px;
-        margin: 25px auto;
-    }
-    section.houseTraining span.big{
-        display: none;
-    }
-}
-
-/** **Lates News** **/
-section.latestNews{
-}
-section.latestNews h2{
-    display: none;
-}
-section.latestNews h3{
-    border-bottom: 2px #7d8684 solid;
-    text-transform: uppercase;
-    color: #333;
-    letter-spacing: 5px;
-    font-size: 3em;
-    font-family: "Dorsa";
-}
-section.latestNews h4{
-    margin: 30px 0;
-    color: #333333;
-    font-family: "cabin";
-    font-size: 2em;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
-section.latestNews p{
-    margin: 15px  auto;
-    font-size: 1.2em;
-    color: #52535a;
-    text-align: justify;
-}
-section.latestNews p + p{
-    margin-top: 25px;
-}
-section.latestNews span.big{
-    color: #52535a;
-    letter-spacing: 5px;
-    font-size: 3em;
-    font-family: "Dorsa";
-}
-@media (max-width: 768px) {
-    section.latestNews{
-        text-align: center;
-    }
-    section.latestNews h2{
-        display: block;
-        text-transform: uppercase;
-        color: #bbb;
-        font-size: 3.5em;
-        font-family: "Dorsa";
-    }
-    section.latestNews h3{
-        font-size: 3em;
-        border-bottom: none ;
-    }
-    section.latestNews span.big{
-        display: none;
-    }
-    section.latestNews p{
-        max-width: 480px;
-    }
-}
-/** **Contact form** **/
-
-section.contactForm{
-    margin: 35px 0;
-    background: #e9eaeb;
-}
-section.contactForm > h2.big{
-    display: none;
-}
-section.contactForm h3{
-    text-align: left;
-    color: #52535a;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: 5em;
-    font-family: "dorsa";
-}
-section.contactForm form input[type='text'],
-section.contactForm form textarea{
-    width: 100%;
+    background: orange;
     border: none;
-    padding: 7px 10px;
-    font-size: 2em;
-    color: #52535a;
-    margin: 15px 0 0 0;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1em;
+    height: 45px;
+    padding: 7px;
+    color:#000000;
 }
-section.contactForm form input[type='submit']{
-    padding: 10px 25px;
-    background: #e72525;
-    border:2px #e72525 solid;
+.subscribe .eMail::-webkit-input-placeholder {
+    color: white;
+}
 
-    text-transform: uppercase;
-    font-size: 1.5em;
-    font-weight: 600;
+.submitSubscribe{
+    width: 100%;
+    background: #6cb33f;
+    height: 45px;
+    padding: 7px;
     color:#fff;
-    letter-spacing: 1px;
-
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin: 15px 0;
     -webkit-transition: background 1s;
     -moz-transition: background 1s;
     -ms-transition: background 1s;
     -o-transition: background 1s;
     transition: background 1s;
-    margin: 15px 0 0 0;
 }
-section.contactForm form input[type='submit']:hover{
-    background: #fff;
-    color: #e72525;
+.submitSubscribe:hover{
+    background: orange;
 }
-section.contactForm address{
-    margin: 45px 0 25px 0;
-    font-size: 1.2em;
-    text-align: center;
-    text-transform: uppercase;
-}
-section.contactForm div.mail{
-    font-family: 'Cabin';
-    font-size: 1.2em;
-    text-align: center;
-}
-section.contactForm a{
-    color: #e72525;
-    -webkit-transition: color 0.5s;
-    -moz-transition: color 0.5s;
-    -ms-transition: color 0.5s;
-    -o-transition: color 0.5s;
-    transition: color 0.5s;
-}
-@media (min-width: 992px ) {
-    section.contactForm{
-        padding-bottom: 35px;
-    }
-    section.contactForm .location{
-        padding-left: 125px;
-    }
-    section.contactForm .location address{
-        text-align: left;
-        font-size: 1.5em;
-    }
-    section.contactForm .location div.mail{
-        text-align: left;
-        font-size: 1.5em;
-    }
-}
-@media (max-width: 992px) {
-    section.contactForm div.border{
-        min-height: 1px;
-        display: block;
-        width: 70%;
-        margin: 50px auto 25px auto;
-        border-bottom:2px #fff solid ;
-    }
-    section.contactForm > h2.big {
-        display: block;
-        padding: 15px 0;
-        text-align: center;
-        color: #e72525;
-        font-size: 4em;
-        font-family: "dorsa";
-    }
 
-    section.contactForm h3 {
-        text-align: center;
-        font-size: 3em;
-    }
-    section.contactForm form {
-        margin: 15px auto;
-        text-align: center;
-        max-width: 400px;
-    }
-    section.contactForm form input[type='text']{
-        width: 100%;
-    }
-    section.contactForm form textarea{
-        width: 100%;
-    }
-    section.contactForm span.big{
-        display: none;
-    }
+.revise  i{
+    font-size: 1.5em;
+    color:orange;
+    margin: 0 15px;
 }
-@media (min-width: 768px) {
-    section.contactForm div.numb{
-        text-align: right;
-        padding: 0 25px;
-    }
-    section.contactForm span.big{
-        display: inline;
-        font-size: 16em;
-        line-height: 1em;
-        color: #fff;
-        font-family: "dorsa";
-    }
+.revise img{
+    border-radius: 50%;
+    float: left;
 }
-#map_canvas{
-    height: 300px;
+.revise  p{
+    font-size: 2em;
+    color: #6cb33f;
 }
+div.user{
+    margin: 30px 0 15px 0;
+}
+.revise p.name{
+    margin-left: 125px;
+    font-size: 1.5em;
+    color: #080808;
+}
+.revise p.town{
+    margin-left: 125px;
+    font-size: 1em;
+    color: #676;
+}
+.revise div.row > div{
+    padding:25px;
+}
+.revise div.row > div > div{
+    padding: 15px;
+    border: 1px #ccc solid;
+}
+.footer{
+    text-align: center;
+}
+.footer h4{
+    color: #000000;
+    font-size: 2em;
+}
+.footer  p {
+    color: #6cb33f;
+    font-size: 1.5em;
+}
+.footer input{
+    padding: 7px 25px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: #6cb33f;
+    border:none;
+    color: #ffffff;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+.footer input:hover{
+    background: orange;
+}
+
+body>a>i.fa{
+   position: fixed;
+
+    right:25px;
+    bottom:30px;
+    font-size: 5em;
+    padding: 0 5px;
+    color: #eeeeee;
+    background: #6cb33f;
+    border-radius: 50%;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+a>i.fa:hover{
+    background: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
